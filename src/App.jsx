@@ -1,8 +1,12 @@
+import List from "./components/List"
+
 
 function App() {
   return (
-    <div>
-  
+    <div className="bg-gray-50 min-h-screen">
+      <div className="max-w-4xl mx-auto px-4 pt-20">
+        <List/>
+      </div>
     </div>
   )
 }
